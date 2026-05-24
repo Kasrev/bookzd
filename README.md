@@ -1,87 +1,86 @@
-# bookzd
-
 # 📚 bookzd
 
-Modern ve minimal tasarıma sahip kişisel kitap takip uygulaması.
+Modern and minimal personal book tracking application.
 
-bookzd; okuduğun kitapları kaydetmek, okuma durumlarını takip etmek, puan vermek ve kendi dijital kitaplığını oluşturmak için geliştirilmiş hafif bir web uygulamasıdır.
-
----
-
-## ✨ Özellikler
-
-* 📖 Kitap ekleme ve düzenleme
-* ⭐ Yıldız sistemi ile puan verme
-* 📚 Okuma durumlarını takip etme
-
-  * Okunuyor
-  * Tamamlandı
-  * Okunacak
-  * Beklemede
-* 🔍 Kitap ve yazar arama sistemi
-* 📊 İstatistik kartları
-
-  * Tamamlanan kitap sayısı
-  * Okunan sayfa sayısı
-  * Aktif okunan kitaplar
-* 👤 Kullanıcı adı düzenleme
-* 💾 LocalStorage ile veri kaydetme
-* 🎨 Modern ve responsive arayüz
-* 📱 Mobil uyumlu tasarım
+bookzd is a lightweight web application designed to help users save books, track reading progress, rate books, and build their own digital library.
 
 ---
 
-## 📂 Proje Yapısı
+## ✨ Features
+
+* 📖 Add and edit books
+* ⭐ Star-based rating system
+* 📚 Track reading status
+
+  * Reading
+  * Completed
+  * Want to Read
+  * On Hold
+
+* 🔍 Search books and authors
+* 📊 Statistics cards
+
+  * Completed books count
+  * Total pages read
+  * Currently reading books
+
+* 👤 Editable username
+* 💾 Data saving with LocalStorage
+* 🎨 Modern and responsive interface
+* 📱 Mobile-friendly design
+
+---
+
+## 📂 Project Structure
 
 ```bash
 bookzd/
 │
-├── index.html        # Ana sayfa
-├── library.html      # Kitaplık sayfası
-├── style.css         # Tüm stil dosyaları
-├── script.js         # Uygulama mantığı
+├── index.html        # Main page
+├── library.html      # Library page
+├── style.css         # Styling files
+├── script.js         # Application logic
 └── README.md
 ```
 
 ---
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-Projeyi çalıştırmak için:
+To run the project:
 
 ```bash
-git clone https://github.com/kullaniciadi/bookzd.git
+git clone https://github.com/username/bookzd.git
 ```
 
-Ardından proje klasörünü açıp `index.html` dosyasını tarayıcıda çalıştır.
+Then open the project folder and run `index.html` in your browser.
 
 ---
 
-## 💾 Veri Saklama
+## 💾 Data Storage
 
-Uygulama verileri tarayıcı üzerinde `LocalStorage` kullanılarak saklanır.
+Application data is stored in the browser using `LocalStorage`.
 
-Bu sayede:
+Advantages:
 
-* Sunucu gerekmez
-* Veriler cihazda tutulur
-* Sayfa yenilense bile kitaplar kaybolmaz
+* No server required
+* Data stays on the user's device
+* Books remain saved even after refreshing the page
 
 ---
 
-## 🎯 Gelecek Planlanan Özellikler
+## 🎯 Planned Features
 
 * 🌙 Dark / Light mode
-* ☁️ Cloud senkronizasyonu
-* 📝 Kitap not sistemi
-* 📈 Gelişmiş istatistikler
-* 🔔 Okuma hedefleri
-* 🏷️ Kategori sistemi
-* 📤 Dışa aktarma / içe aktarma
+* ☁️ Cloud synchronization
+* 📝 Book notes system
+* 📈 Advanced statistics
+* 🔔 Reading goals
+* 🏷️ Category system
+* 📤 Import / Export support
 
 ---
 
-## 📸 Ekran Görselleri
+## 📸 Screenshots
 
 <img width="720" height="400" alt="image" src="https://github.com/user-attachments/assets/65b12d5e-90e1-4d9a-bb5c-98a44e58d062" />
-
